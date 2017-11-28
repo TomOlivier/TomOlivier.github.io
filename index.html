@@ -6,17 +6,17 @@
   </head>
   <body>
 
-  	<secion id="integer">
+  	<section id="integer">
   		<ul>
   			<li data-type="simple">123456789</li>
   		</ul>
-  	</secion>
+  	</section>
 
-  	<secion id="string">
+  	<section id="string">
   		<ul>
   			<li data-type="simple">Lorem ipsum dolor sit amet.</li>
   		</ul>
-  	</secion>
+  	</section>
 
   	<section id="float">
   		<ul>
@@ -31,17 +31,32 @@
 
   	<section id="datetime">
   		<ul>
+  			<li><b>unix</b></li>
   			<li data-type="unix">Mon Jan 2 15:04:05 MST 2006</li>
+  			<li data-type="unix-2">Mon Jan 02 15:04:05 MST 2006</li>
+  			<li><b>ruby</b></li>
   			<li data-type="ruby">Mon Jan 02 15:04:05 -0700 2006</li>
-  			<li data-type="rfc3339">2006-01-02T15:04:05Z+07:00</li>
-  			<li data-type="ansic">Mon Jan _2 15:04:05 2006</li>
+  			<li><b>rfc3339</b></li>
+  			<li data-type="rfc3339">2006-01-02T15:04:05+07:00</li>
+  			<li data-type="rfc3339-2">2006-01-02T15:04:05Z</li>
+  			<li><b>ansic</b></li>
+  			<li data-type="ansic">Mon Jan 2 15:04:05 2006</li>
+  			<li data-type="ansic-2">Mon Jan 02 15:04:05 2006</li>
+  			<li><b>year_month_day</b></li>
   			<li data-type="year_month_day">2006-01-02</li>
+  			<li><b>us_full_year</b></li>
   			<li data-type="us_full_year">01/02/2006</li>
+  			<li><b>us</b></li>
   			<li data-type="us">01/02/06</li>
+  			<li><b>fr_full_year</b></li>
   			<li data-type="fr_full_year">02/01/2006</li>
+  			<li><b>fr</b></li>
   			<li data-type="fr">02/01/06</li>
+  			<li><b>std_0</b></li>
   			<li data-type="std_0">02-Jan-2006</li>
+  			<li><b>std_1</b></li>
   			<li data-type="std_1">January 2, 2006</li>
+  			<li><b>std_2</b></li>
   			<li data-type="std_2">2 January 2006</li>
   		</ul>
   	</section>
